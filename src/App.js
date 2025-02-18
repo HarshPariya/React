@@ -6,9 +6,8 @@ import Header from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Form1 from "./components/Form1";
-import Todo from "./components/Todo";
+import Submit from "./components/Submit";
 // import Calculator from "./components/Calculator";
-
 
 function App() {
   // const[count,setCount] = useState(0)
@@ -19,9 +18,7 @@ function App() {
           <Route path="/header" element={<Header />} />
           <Route path="/" element={<><Form1/></>} />
           <Route path="/home" element={<Home />} />
-          <Route path="/todo" element={<Todo/>} />
-          {/* <Route path="/calc" element={<Calculator/>} /> */}
-
+          <Route path="/submit" element={<Submit/>} />
         </Routes>
       </BrowserRouter>
     </>

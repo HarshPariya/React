@@ -1,0 +1,28 @@
+.submit {
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit-text {
+    animation: popUp 1s ease;
+  }
+  
+  @keyframes popUp {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

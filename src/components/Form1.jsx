@@ -20,7 +20,7 @@ export default function Form() {
       const response = await axios.post("http://localhost:5000/register", data);
       console.log(response.status);
       if (response.status === 200) {
-        navigate("/todo");
+        navigate("/Submit");
       } else {
         navigate("/Form1");
       }
